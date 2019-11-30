@@ -116,5 +116,7 @@ The final part of our application is the main method. This is just a standard me
 
 
 Hopefully, this section provided some of the Spring Boot basics and got you on your way to writing your own applications.
+Next go through : https://docs.spring.io/spring-boot/docs/2.2.1.RELEASE/reference/html/using-spring-boot.html#using-boot
+Then go through : https://docs.spring.io/spring-boot/docs/2.2.1.RELEASE/reference/html/spring-boot-features.html#boot-features
  
  
