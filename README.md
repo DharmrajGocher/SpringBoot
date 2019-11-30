@@ -39,7 +39,7 @@ Currently there are 2 types of versions-
    2. Microservices architecture
    
    
-   1. Monolithic architecture-
+   # Monolithic architecture-
    In this model where whole project is deployed to a single server and it contains a single database.
    According to our business requirement we must need to configure multiple server inftastructure across multiple region on the globe.
    A server infrastructure means configuring networking monitoring team, a dedicated server machine(which contains application server  like tomcat/jboss etc.).
