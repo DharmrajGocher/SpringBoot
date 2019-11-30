@@ -90,6 +90,25 @@ All official starters follow a similar naming pattern; spring-boot-starter-*, wh
      
 
 # Developing Your First Spring Boot Application
+There are 2 ways we can configure our project from https://start.spring.io/.
+1. A project skeleton can be downloaded as a zip file from  https://start.spring.io/ and we can import it to our IDE.
+2. By using IDE with help of spring boot plugin, we can configure our project and which will be passed internally to start.spring.io
+website in the background and automaticall the zip file is downloaded into IDE.
+Spring Tool Suite (STS) and Intellij IDEs by default comes with Spring boot plugin and for other iDES like Eclipse we need to configure spring boot plugin.
+
+package com.dharma.SampleApp;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SampleAppApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SampleAppApplication.class, args);
+	}
+
+}
 
 
  
