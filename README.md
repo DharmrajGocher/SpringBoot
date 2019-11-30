@@ -71,6 +71,15 @@ The starters contain a lot of the dependencies that you need to get a project up
 
 All official starters follow a similar naming pattern; spring-boot-starter-*, where * is a particular type of application. This naming structure is intended to help when you need to find a starter.
  
+ All the predefined starters of spring boot belongs to org.springframework.boot package.
+ 
+ 2. Auto Configuration:-
+ Every spring boot starter comes with a auto configuration class & which is responsible to perform integration/configuration setup for our application according to given input.
+ E.g.-
+ Suppose if we add spring-boot-starter-jdbc in our pom.xml, internally the auto configuration class of the given starter performs a below operations.
+     1. It finds whether a JDBC driver is present in CLASSPATH or NOT.
+     2. If it is present then based on given DB inputs like DB URL, User, Password etc, it perform DataSource Configuration with help of Hikari datasource connection pool.
+     
 
 # Developing Your First Spring Boot Application
 
