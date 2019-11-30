@@ -111,7 +111,10 @@ public class SampleAppApplication {
 
 }
 <code>
+# The “main” Method
+The final part of our application is the main method. This is just a standard method that follows the Java convention for an application entry point. Our main method delegates to Spring Boot’s SpringApplication class by calling run. SpringApplication bootstraps our application, starting Spring, which, in turn, starts the auto-configured Tomcat web server. We need to pass Example.class as an argument to the run method to tell SpringApplication which is the primary Spring component. The args array is also passed through to expose any command-line arguments.
 
 
+Hopefully, this section provided some of the Spring Boot basics and got you on your way to writing your own applications.
  
  
