@@ -17,3 +17,8 @@ It take an opinionated view of the Spring platform and third-party libraries so 
  5. Provide production-ready features such as metrics, health checks and externalized configuration
 
  6. Absolutely no code generation and no requirement for XML configuration
+ 
+ # Spring Boot Documentation
+ Please refer to https://docs.spring.io/spring-boot/docs/2.2.1.RELEASE/reference/html/documentation-overview.html#boot-documentation
+ 
+ 
