@@ -80,6 +80,14 @@ All official starters follow a similar naming pattern; spring-boot-starter-*, wh
      1. It finds whether a JDBC driver is present in CLASSPATH or NOT.
      2. If it is present then based on given DB inputs like DB URL, User, Password etc, it perform DataSource Configuration with help of Hikari datasource connection pool.
      
+ 3. Command Line interface(CLI):-
+ It is a special tool used for groovy based developers for generating grrovy script for spring boot application quickly.
+ For Srping boot CLI NO need to work with starters concept because depends on the coding, required libraries are automatically bundled during the execution process.
+ 
+ 4. Actuators:-
+ Once a product is deployed in production environment then memory management, health checkup is by defaultly provided by actuators.
+ We can develop a custom actuators. Infact an actuators are also a microservice.
+     
 
 # Developing Your First Spring Boot Application
 
