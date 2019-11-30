@@ -96,6 +96,7 @@ There are 2 ways we can configure our project from https://start.spring.io/.
 website in the background and automaticall the zip file is downloaded into IDE.
 Spring Tool Suite (STS) and Intellij IDEs by default comes with Spring boot plugin and for other iDES like Eclipse we need to configure spring boot plugin.
 
+<code>
 package com.dharma.SampleApp;
 
 import org.springframework.boot.SpringApplication;
@@ -109,6 +110,7 @@ public class SampleAppApplication {
 	}
 
 }
+<code>
 
 
  
