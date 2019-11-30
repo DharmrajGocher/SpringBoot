@@ -39,7 +39,7 @@ Currently there are 2 types of versions-
    2. Microservices architecture
    
    
-   # Monolithic architecture-
+ 
    In this model where whole project is deployed to a single server and it contains a single database.
    According to our business requirement we must need to configure multiple server inftastructure across multiple region on the globe.
    A server infrastructure means configuring networking monitoring team, a dedicated server machine(which contains application server  like tomcat/jboss etc.).
@@ -47,7 +47,21 @@ Currently there are 2 types of versions-
    In monolithic architecture all type of user requests submitted to same server .eg. booking ticket, cancelling ticket,user login, user logout etc. and this process increases a load on server which affects the performance of application/project.
    
    To overcome these above problems we need to decompose monolithic ystem into mini services and must be deployed as self contained environment. This type of architecture is known as Microservices architecture.
-   
+
+# Rules of microservices
+ 1. Application must be self contained .i.e it must run in its own process.
+ 2. It must have its own server.
+ 3. It must have its own memory
+ 4. It must have its own database.
+ 
+ Note- A microservice menas a webservice implemented either by SOAP/RESTful and must contains only one operation.
+ 
+ # Components of Spring Boot
+ 1. Starters
+ 2. AutoConfiguration
+ 3. CLI
+ 4. Actuators
+ 
 
 # Developing Your First Spring Boot Application
 
